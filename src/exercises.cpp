@@ -13,7 +13,7 @@ void exercise_1(string s1, string s2, string s3) {
     if(mins > s3) {
         mins = s3;
     }
-    cout<<mins<<endl;
+    cout<<mins;
 }
 
 void exercise_2(double A, double B, double C) {
