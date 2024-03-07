@@ -55,11 +55,12 @@ int exercise_10(int a, int b) {
 
 string exercise_11(int number) {
     if(number == 11235813) {
-    cout << "Se encontro Fibonacci.";
+    cout << "Se encontro Fibonacci";
   }
   else {
-    cout << "Esto no es de Fibonacci.";
+    cout << "Esto no es de Fibonacci";
   }
+  return "";
 }
 
 void exercise_12(string color1, int numb1,
