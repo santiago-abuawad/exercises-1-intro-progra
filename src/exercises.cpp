@@ -25,9 +25,8 @@ void exercise_2(double A, double B, double C) {
   } else if (d == 0) {
     double res = -B / (2 * A);
     cout<<res;
-  } else {
-    cout<<;
   }
+  
 } 
 
 void exercise_3(int a, int b) {
