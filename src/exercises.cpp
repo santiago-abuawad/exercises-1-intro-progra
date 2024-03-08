@@ -37,7 +37,7 @@ void exercise_3(int a, int b) {
     cout << "Impossible\n";
   } else {
     int c = a / b;
-    cout<<c<<\n;
+    cout<<c<<"\n";
   }
 }
 
