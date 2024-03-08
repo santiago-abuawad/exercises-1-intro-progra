@@ -21,12 +21,12 @@ void exercise_2(double A, double B, double C) {
   if(d > 0) {
     double res1 = (-B + std::sqrt(d)) / (2 * A);
     double res2 = (-B - std::sqrt(d)) / (2 * A);
-    cout<<res1<<" "<<res2;
+    cout<<res1<<res2;
   } else if (d == 0) {
     double res = -B / (2 * A);
     cout<<res;
   }
-  
+
 } 
 
 void exercise_3(int a, int b) {
