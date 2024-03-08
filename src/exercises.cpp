@@ -34,10 +34,10 @@ void exercise_2(double A, double B, double C) {
 
 void exercise_3(int a, int b) {
   if(b == 0) {
-    cout << "Impossible";
+    cout << "Impossible\n";
   } else {
     int c = a / b;
-    cout<<c;
+    cout<<c<<\n;
   }
 }
 
