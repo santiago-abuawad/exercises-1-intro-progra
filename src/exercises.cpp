@@ -95,7 +95,6 @@ void exercise_6(int number) {
             cout << "Invalid input" << endl;
     }
 
-    return 0;
 }
 
 void exercise_7(double r) {
