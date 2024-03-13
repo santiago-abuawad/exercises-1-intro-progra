@@ -74,7 +74,7 @@ void exercise_6(int number) {
             cout << "Domingo";
             break;
         case 1:
-            cout << "Lunes";
+            cout << "Monday\n";
             break;
         case 2:
             cout << "Martes";
@@ -83,7 +83,7 @@ void exercise_6(int number) {
             cout << "Miércoles";
             break;
         case 4:
-            cout << "Jueves";
+            cout << "Thursday\n";
             break;
         case 5:
             cout << "Viernes";
@@ -93,6 +93,7 @@ void exercise_6(int number) {
             break;
         case 0:
             cout << "Invalid input";
+        default:
     }
 
 }
