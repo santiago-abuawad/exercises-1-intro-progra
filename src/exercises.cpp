@@ -110,11 +110,14 @@ void exercise_7(double r) {
 }
 
 void exercise_8(long int seconds) {
+  #include <stdexcept>
   if(seconds > 0 || seconds == 0) {
     long int hours = seconds / 3600;
     long int min = (seconds % 60) / 3600;
-    long int seconds2 = seconds % 60;
-    cout << 0<<hours<<":"<<0<<min<<":"<<0<<seconds2<<"\n";
+    long int seconds2 = seconds % 60l;
+
+    cout <<setw(2) << std::setfill('0') << hours<<":" <<setw(2) << std::setfill('0') <<min<<":" <<setw(2) << std::setfill('0') <<seconds2<<"\n";
+
   } else {
     cout << "Error: Input seconds cannot be negative.\n";
   }
