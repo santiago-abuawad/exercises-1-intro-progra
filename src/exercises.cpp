@@ -93,6 +93,7 @@ void exercise_6(int number) {
             break;
         case 0:
             cout << "Invalid input";
+            break
         default:
     }
 
