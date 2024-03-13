@@ -130,7 +130,10 @@ string exercise_9(string s1, string s2, string s3, string s4, string s5) {
 }
 
 int exercise_10(int a, int b) {
-  if(a,b > 0 || a,b == 0) {
+  if (a == 0 || b == 0) {
+    
+  }
+  else {
     int result = a + b * 2;
     cout<<result<<"\n";
   }
