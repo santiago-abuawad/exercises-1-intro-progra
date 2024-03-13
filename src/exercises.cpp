@@ -74,7 +74,7 @@ void exercise_6(int number) {
             cout << "Domingo" << endl;
             break;
         case 1:
-            cout << "Lunes" << endl;
+            cout << "Lunes\n" << endl;
             break;
         case 2:
             cout << "Martes" << endl;
@@ -83,7 +83,7 @@ void exercise_6(int number) {
             cout << "Miércoles" << endl;
             break;
         case 4:
-            cout << "Jueves" << endl;
+            cout << "Thursday\n" << endl;
             break;
         case 5:
             cout << "Viernes" << endl;
