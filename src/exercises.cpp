@@ -101,7 +101,7 @@ void exercise_6(int number) {
 
 void exercise_7(double r) {
   if(r > 0) {
-    cout >> "Error: Radius cannot be negative.";
+    cout << "Error: Radius cannot be negative.";
   }
   double pi = 3.141592653589793238462643;
   double area = 4*pi*r*2;
