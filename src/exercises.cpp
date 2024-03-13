@@ -169,9 +169,9 @@ string exercise_14(int number_of_docs) {
 }
 
 void exercise_15(int a, int b, int c) {
-  int a
-  int b
-  int c
+  int a;
+  int b;
+  int c;
   cout<<"Los valores despues de la permutacion son: "
   <<"a = "<<a<<
   <<"b = "<<b<<
