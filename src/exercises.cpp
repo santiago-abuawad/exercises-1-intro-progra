@@ -101,7 +101,7 @@ void exercise_6(int number) {
 
 void exercise_7(double r) {
   if(r > 0 || r == 0) {
-    double pi = 3.142;
+    double pi = 3.14;
     double area = 4*pi*r*r;
     cout <<area<<"\n";
   } else {
