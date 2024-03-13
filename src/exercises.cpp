@@ -70,29 +70,29 @@ void exercise_5(char character) {
 
 void exercise_6(int number) {
     switch (number) {
-        case 0:
-            cout << "Domingo" << endl;
+        case 7:
+            cout << "Domingo";
             break;
         case 1:
-            cout << "Lunes\n" << endl;
+            cout << "Lunes";
             break;
         case 2:
-            cout << "Martes" << endl;
+            cout << "Martes";
             break;
         case 3:
-            cout << "Miércoles" << endl;
+            cout << "Miércoles";
             break;
         case 4:
-            cout << "Thursday\n" << endl;
+            cout << "Jueves";
             break;
         case 5:
-            cout << "Viernes" << endl;
+            cout << "Viernes";
             break;
         case 6:
-            cout << "Sábado" << endl;
+            cout << "Sábado";
             break;
-        default:
-            cout << "Invalid input" << endl;
+        case 0:
+            cout << "Invalid input";
     }
 
 }
