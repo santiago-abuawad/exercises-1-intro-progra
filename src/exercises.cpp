@@ -91,10 +91,10 @@ void exercise_6(int number) {
         case 6:
             cout << "Sábado";
         case 0:
-            cout << "Invalid input";
+            cout << "Invalid input\n";
             break;
         default:
-        cout << "Invalid input";
+        cout << "Invalid input\n";
     }
 
 }
