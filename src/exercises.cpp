@@ -111,6 +111,7 @@ void exercise_7(double r) {
 
 void exercise_8(long int seconds) {
   #include <stdexcept>
+  #include <iomanip>
   if(seconds > 0 || seconds == 0) {
     long int hours = seconds / 3600;
     long int min = (seconds % 60) / 3600;
