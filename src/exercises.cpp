@@ -130,13 +130,17 @@ string exercise_9(string s1, string s2, string s3, string s4, string s5) {
 }
 
 int exercise_10(int a, int b) {
-  if (a == 0 || b == 0) {
-    
+  int res1 = a * b;
+  if (res1 > 10) {
+    int res2 = res1 * 2;
+  }
+  else if(res1 > 100) {
+    int res3 = res1 * 3;
   }
   else {
-    int result = a + b * 2;
-    cout<<result<<"\n";
+    int res4 = res1 * 1;
   }
+
 }
 
 string exercise_11(int number) {
