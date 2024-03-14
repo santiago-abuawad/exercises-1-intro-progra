@@ -3,8 +3,8 @@
 #include <iostream>
 #include <stdexcept>
 #include <iomanip>
-#include <string>
-#include <sstream>
+#include <vector>
+
 
 using namespace std;
 
@@ -127,7 +127,7 @@ void exercise_8(long int seconds) {
 }
 
 string exercise_9(string s1, string s2, string s3, string s4, string s5) {
-  string primeraletra;
+
     primeraLetra.push_back(s1[0]);
     primeraLetra.push_back(s2[0]);
     primeraLetra.push_back(s3[0]);
