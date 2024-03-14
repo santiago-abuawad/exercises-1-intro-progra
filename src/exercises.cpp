@@ -160,18 +160,21 @@ void exercise_12(string color1, int numb1,
 
 string exercise_13(int age, int years_of_experience) {
   if(age < 18) {
-
+    cout << "Not eligible";
   }
   else if(years_of_experience == 0){
-    cout << "coordinador de proyecto";
+    cout << "Project coordinator";
   }
   else if(years_of_experience >= 3) {
-    cout << "director de proyecto";
+    cout << "Project coordinator";
   }
   else if(years_of_experience >= 5) {
-    cout << "director senior";
+    cout << "Senior project manager";
   }
-}
+  else {
+    cout<<"Not eligible";
+  }
+
 
 string exercise_14(int number_of_docs) {
   // TODO: YOUR CODE HERE
