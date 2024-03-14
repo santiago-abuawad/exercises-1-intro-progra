@@ -197,9 +197,9 @@ string exercise_14(int number_of_docs) {
 }
 
 void exercise_15(int a, int b, int c) {
-  aux_a = a;
-  aux_b = b;
-  aux_c = c;
+  int auxa = a;
+  int auxb = b;
+  int auxc = c;
   a = aux_c;
   b = aux_a;
   c = aux_b;
