@@ -169,11 +169,11 @@ string exercise_13(int age, int years_of_experience) {
     if(years_of_experience <= 0) {
       cout<<"Project coordinator";
     }
-    else if(years_of_experience >= 3){
-      cout<<"Project manager";
-    }
-    else if(years_of_experience >= 5) {
+    else if(years_of_experience >= 5){
       cout<<"Senior project manager";
+    }
+    else if(years_of_experience >= 3) {
+      cout<<"Project manager";
     }
   } else {
     cout<<"Not eligible";
