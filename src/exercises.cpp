@@ -174,6 +174,7 @@ string exercise_13(int age, int years_of_experience) {
   else {
     cout<<"Not eligible";
   }
+}
 
 
 string exercise_14(int number_of_docs) {
