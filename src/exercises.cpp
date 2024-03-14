@@ -155,12 +155,22 @@ void exercise_12(string color1, int numb1,
                  string color2, int numb2,
                  string color3, int numb3,
                  string color4, int numb4) {
-  // TODO: YOUR CODE HERE
+
 }
 
 string exercise_13(int age, int years_of_experience) {
-  // TODO: YOUR CODE HERE
-  return "";
+  if(age < 18) {
+
+  }
+  else if(years_of_experience == 0){
+    cout >> "coordinador de proyecto";
+  }
+  else if(years_of_experience >= 3) {
+    cout >> "director de proyecto";
+  }
+  else if(years_of_experience >= 5) {
+    cout >> "director senior";
+  }
 }
 
 string exercise_14(int number_of_docs) {
