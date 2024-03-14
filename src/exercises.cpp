@@ -200,9 +200,9 @@ void exercise_15(int a, int b, int c) {
   int auxa = a;
   int auxb = b;
   int auxc = c;
-  a = aux_c;
-  b = aux_a;
-  c = aux_b;
+  a = auxc;
+  b = auxa;
+  c = auxb;
   cout<<"Los valores son: a = 51 b = 876 y c = 235\n"
   <<"Permutamos: a => b, b => c, c => a\n"
   <<"Los valores despues de la permutacion son: "
