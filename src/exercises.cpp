@@ -59,7 +59,12 @@ void exercise_3(int a, int b) {
 }
 
 void exercise_4(double n, double a, double b, double x, double y) {
-
+   if (N > B) {
+        ccd *= (1 - Y / 100);
+    } else if (N > A) {
+        ccd *= (1 - X / 100);
+    }
+    cout<<ccd<<"\n";
 }
 
 void exercise_5(char character) {
@@ -127,8 +132,6 @@ void exercise_8(long int seconds) {
 }
 
 string exercise_9(string s1, string s2, string s3, string s4, string s5) {
-  cout<<"applebananacatdogeleven\nAun sin suerte\n"
-  "abcde\n";
 }
 
 int exercise_10(int a, int b) {
