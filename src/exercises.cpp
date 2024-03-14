@@ -59,10 +59,10 @@ void exercise_3(int a, int b) {
 }
 
 void exercise_4(double n, double a, double b, double x, double y) {
-   if (N > B) {
-        ccd *= (1 - Y / 100);
-    } else if (N > A) {
-        ccd *= (1 - X / 100);
+   if (n > b) {
+        ccd *= (1 - y / 100);
+    } else if (n > a) {
+        ccd *= (1 - x / 100);
     }
     cout<<ccd<<"\n";
 }
