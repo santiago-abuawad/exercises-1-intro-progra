@@ -134,10 +134,10 @@ string exercise_9(string s1, string s2, string s3, string s4, string s5) {
   char caracter5 = s5[0];
   cout<<s1<<s2<<s3<<s4<<s5<<"\n";
   if(caracter1 == caracter5) {
-    cout<<"Hemos encontrado algo!"
+    cout<<"Hemos encontrado algo!";
   }
   else {
-    cout<<"Aun sin suerte\n"
+    cout<<"Aun sin suerte\n";
   }
 }
 
