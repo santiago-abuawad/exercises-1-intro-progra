@@ -165,7 +165,7 @@ void exercise_12(string color1, int numb1,
 }
 
 string exercise_13(int age, int years_of_experience) {
-  if(age > 18) {
+  if(age > 17) {
     if(years_of_experience <= 0) {
       cout<<"Project coordinator";
     }
