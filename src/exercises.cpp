@@ -178,6 +178,7 @@ string exercise_13(int age, int years_of_experience) {
   } else {
     cout<<"Not eligible";
   }
+  return 0;
 }
 
 
@@ -210,5 +211,5 @@ void exercise_15(int a, int b, int c) {
 }
 
 void exercise_16(int debut, int fin) {
-  // TODO: YOUR CODE HERE
+
 }
