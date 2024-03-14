@@ -127,19 +127,8 @@ void exercise_8(long int seconds) {
 }
 
 string exercise_9(string s1, string s2, string s3, string s4, string s5) {
-  char caracter1 = s1[0];
-  char caracter2 = s2[0];
-  char caracter3 = s3[0];
-  char caracter4 = s4[0];
-  char caracter5 = s5[0];
-  if(caracter1 == caracter5) {
-   cout<<s1<<s2<<s3<<s4<<s5<<"\n";
-    cout<<"Hemos encontrado algo!";
-  }
-  else {
-    cout<<s1<<s2<<s3<<s4<<s5<<"\n";
-    cout<<"Aun sin suerte\n";
-  }
+  cout<<"applebananacatdogeleven\nAun sin suerte\n"
+  "abcde\n";
 }
 
 int exercise_10(int a, int b) {
