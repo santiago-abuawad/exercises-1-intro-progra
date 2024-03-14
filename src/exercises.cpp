@@ -163,13 +163,13 @@ string exercise_13(int age, int years_of_experience) {
 
   }
   else if(years_of_experience == 0){
-    cout >> "coordinador de proyecto";
+    cout << "coordinador de proyecto";
   }
   else if(years_of_experience >= 3) {
-    cout >> "director de proyecto";
+    cout << "director de proyecto";
   }
   else if(years_of_experience >= 5) {
-    cout >> "director senior";
+    cout << "director senior";
   }
 }
 
